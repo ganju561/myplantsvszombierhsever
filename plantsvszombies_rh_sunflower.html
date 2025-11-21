@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>向日葵 - 植物大战僵尸融合版3 .1.1</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            background-color: #e8f5e9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2e7d32;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #66bb6a;
+            margin-bottom: 30px;
+            font-size: 18px;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .sunflower {
+            max-width: 150px;
+            height: auto;
+        }
+        .stats {
+            background-color: #f1f8e9;
+            border-left: 5px solid #8bc34a;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .stats h2 {
+            color: #388e3c;
+            margin-top: 0;
+            border-bottom: 2px solid #66bb6a;
+            padding-bottom: 10px;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .stat-item {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .stat-label {
+            font-weight: bold;
+            color: #2e7d32;
+        }
+        .unlock-condition {
+            background-color: #e8f5e9;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            text-align: center;
+            border: 2px dashed #66bb6a;
+        }
+        .description {
+            text-align: justify;
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .btn-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .btn {
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #388e3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>向日葵</h1>
+        <p class="subtitle">Sunflower - 植物大战僵尸融合版3 .1.1中的基础生产型植物</p>
+        
+        <div class="image-container">
+            <!-- 向日葵图片 -->
+            <img class="sunflower" src="融合版植物大战僵尸向日葵图片文件.png" alt="向日葵" />
+        </div>
+        <div class="stats">
+            <h2>基础属性</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-label">植物ID:</span> 1
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">生命值:</span> 300
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">所需阳光:</span> 50
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">生产速度:</span> 25秒/25阳光
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">卡槽冷却:</span> 7.5秒
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">植物类型:</span> 生产性植物
+                </div>
+            </div>
+        </div>
+        
+        <div class="unlock-condition">
+            <h3>解锁条件</h3>
+            <p>初始拥有</p>
+        </div>
+        
+        <div class="description">
+            <h3>植物介绍</h3>
+            <p>向日葵是植物大战僵尸融合版3 .1.1中最基础的生产型植物，也是玩家最早获得的植物之一。它能够定期生产阳光资源，为玩家提供种植其他植物的能量。</p>
+            <p>每25秒，向日葵会产出25点阳光，是游戏初期阳光经济的主要来源。合理布局向日葵是建立强大防线的基础，足够的阳光生产能够让玩家更快地部署更多植物。</p>
+            <p>虽然向日葵没有攻击能力，但它在整个游戏策略中扮演着至关重要的角色，是几乎所有战术的起点。保护好向日葵不被僵尸摧毁是游戏初期的关键任务。</p>
+        </div>
+        
+        <div class="btn-container">
+            <button class="btn" onclick="window.location.reload()">重新加载页面</button>
+        </div>
+    </div>
+
+</body>
+</html>
